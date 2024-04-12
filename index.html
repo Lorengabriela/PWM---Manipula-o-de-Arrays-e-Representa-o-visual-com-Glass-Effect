@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FIFO Queue</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <h1>FIFO Queue</h1>
+  <div class="queue-container">
+    <div class="queue" id="queue">
+      <div class="queue-element" style="background-color: #ff0000"></div> 
+      <div class="queue-element" style="background-color: #00ff00"></div> 
+      <div class="queue-element" style="background-color: #0000ff"></div> 
+    </div>
+  </div>
+  <div class="controls">
+    <input type="color" id="colorPicker" value="#ff0000">
+    <button onclick="enqueue()">Adicionar</button>
+    <button onclick="dequeue()">Remover</button>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
